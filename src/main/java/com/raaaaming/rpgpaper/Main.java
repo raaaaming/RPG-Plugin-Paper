@@ -151,7 +151,7 @@ public final class Main extends JavaPlugin implements Listener {
         } else {
             e.setDamage(2 + atk.get(attacker) * 0.5 - def.get(victim) * 0.5);
             e.setDamage(2 + atk.get(attacker) * 0.5 - def.get(victim) * 0.5);
-            attacker.sendMessage("크리티컬!");
+            attacker.sendMessage("크리티컬!!");
         }
     }
 
